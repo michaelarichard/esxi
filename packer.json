@@ -29,15 +29,15 @@
       ],
       "vmx_data": {
         "cpuid.coresPerSocket": "1",
-        "memsize": "4096",
-        "numvcpus": "2",
+        "memsize": "1024",
+        "numvcpus": "1",
         "remotedisplay.vnc.enabled": "TRUE",
         "remotedisplay.vnc.port": "5900",
         "vhv.enable": "TRUE"
       },
       "vmx_data_post": {
-        "cpuid.coresPerSocket": "2",
-        "memsize": "4096",
+        "cpuid.coresPerSocket": "1",
+        "memsize": "1024",
         "numvcpus": "1"
       }
     }
