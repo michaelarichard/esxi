@@ -28,17 +28,17 @@
           "ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
       ],
       "vmx_data": {
-        "cpuid.coresPerSocket": "2",
+        "cpuid.coresPerSocket": "1",
         "memsize": "4096",
-        "numvcpus": "1",
+        "numvcpus": "2",
         "remotedisplay.vnc.enabled": "TRUE",
         "remotedisplay.vnc.port": "5900",
         "vhv.enable": "TRUE"
       },
       "vmx_data_post": {
-        "cpuid.coresPerSocket": "2",
+        "cpuid.coresPerSocket": "1",
         "memsize": "4096",
-        "numvcpus": "1"
+        "numvcpus": "2"
       }
     }
   ],
